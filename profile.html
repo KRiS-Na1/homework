@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+
+        }
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .portfolio, .contact {
+            padding: 40px 0;
+        }
+        .portfolio-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .portfolio-item {
+            width: calc(33.33% - 30px);
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        @media (max-width: 768px) {
+            .portfolio-item {
+                width: calc(50% - 30px);
+            }
+        }
+        @media (max-width: 480px) {
+            .portfolio-item {
+                width: 100%;
+            }
+        }
+		
+		 #About Me img {
+            max-width: 300px;
+            height: auto;
+            flex-shrink: 0; /* Prevent the image from shrinking */
+        }
+		
+	 #About Me h2{ 
+            text-align: center;
+        }
+
+        #About Me p {
+            flex-grow: 1; /* Allow the text to take up the remaining space */
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Krishna Kumar Acharya</h1>
+        <p>Welcome to My Personal Website</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="about" class="about">
+           <img src="https://i.pinimg.com/564x/cc/56/e9/cc56e94b4c5a40605f3f016cf448cce5.jpg" style="width:20%">            
+		   <h2>About Me</h2>
+			          
+		   <p>I Krishna Kumar Acharya is a student currently pursuing a diploma in Information and Communication Technology (ICT) at the Royal Institute of Management. With a focus on expanding technical knowledge and practical skills, Krishna is working to build a strong foundation in ICT, aiming to leverage these skills in various technology-driven fields.</p>
+        </div>
+
+        <div id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <h3>Website Development for a Local Business:</h3>
+                    <p>Developed a responsive website for a local bakery, including features like a menu display, online ordering system, and contact form. Used HTML, CSS, and JavaScript to create an engaging user interface and ensure a seamless user experience.</p>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Data Visualization Tool</h3>
+                    <p>Developed a data visualization tool to analyze and present data from a public dataset. The tool included various chart types and filtering options, allowing users to gain insights from complex data sets easily.</p>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Mobile App for Event Management</h3>
+                    <p>Created a mobile application to help users manage events, including features such as event creation, RSVP functionality, and a calendar integration. The app aimed to simplify event planning and communication among attendees</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: kkc11669@gmail.com</p>
+            <p>Phone: +975 77376787</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
