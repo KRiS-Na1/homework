@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+header p {
+font-size: 65px;
+font-weight: bold;
+
+}
+.inline{
+    display: flex;
+  align-items: center;     /* centers vertically inside the inline container */
+  text-align: center;
+   
+}
+.inline p{
+    padding: 0;
+    margin: 0px; 
+    font-size: 45px;   
+    font-family: Oxanium;
+    letter-spacing: 15px;
+}
+
+.slogan{
+    font-family: Oxanium;
+    display: block;
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: -15px;
+    letter-spacing: 14px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.menu-bar{
+    width: 55%;
+}
+
+.donate-button {
+    background-color: #FF5A5F;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    width: 550px;
+    padding-left: 100px;
+    margin: auto 0;
+    text-align: center;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 500px;
+}
+
+.banner-content h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-shadow: 2px 5px 8px black;
+}
+
+.banner-buttons {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 700;
+}
+
+.banner-buttons a {
+    background-color: #FF5A5F;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.banner-buttons a.secondary {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+}

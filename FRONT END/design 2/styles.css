@@ -1,0 +1,123 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #3c92e7;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+}
+.logo{
+display: flex;
+align-items: center;
+
+
+}
+.logo img{
+width: 50px;
+display: flex;
+
+}
+
+
+.logo h1 {
+    color: #333;
+    font-size: 24px;
+    display: flex;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    margin: 0 10px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: #033163;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.hero-content {
+    max-width: 100%;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+    color: #333;
+    padding-top:280px;
+
+}
+
+.hero-content p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+    padding-top: 10px;
+}
+.hero img{
+    padding-top: 200px;
+
+}
+.cta-buttons {
+    margin-top: 30px;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
